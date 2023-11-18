@@ -12,12 +12,12 @@ const Home = () => {
   }
 
   return (
-    <div className="flex flex-col justify-center">
+    <div className="flex flex-col justify-center items-center">
       {/* navbar */}
       {/* <Navbar/> */}
 
       {/* Find your own pet */}
-      <div className="flex flex-row pl-28 w-full gap-20 justify-between">
+      <div className="flex flex-row pl-28 w-full gap-20 justify-center xl:max-w-[1440px]">
         <div className="flex flex-col gap-6">
           <h1 className="font-bold text-[#7FA0C5] text-[3.5rem] pt-[14.5rem]">
             Find your Own Pet
@@ -41,12 +41,12 @@ const Home = () => {
       </div>
 
       {/* Welcome */}
-      <div className="flex flex-col justify-center items-center gap-12 pt-40 pl-60 pr-48 pb-44">
+      <div className="flex flex-col justify-center items-center gap-12 pt-40 pl-60 pr-48 pb-44 xl:max-w-[1440px]">
         <div className="flex flex-col gap-9">
           <h1 className="font-bold text-[#7FA0C5] text-[3.5rem] text-center">
             Welcome
           </h1>
-          <p className="text-[#5A422D] text-[1.125rem">
+          <p className="text-[#5A422D] text-[1.125rem]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -63,7 +63,7 @@ const Home = () => {
             <h1 className="font-bold text-[#7FA0C5] text-[3.5rem] text-center">
               About
             </h1>
-            <p className="text-[#5A422D] text-[1.125rem">
+            <p className="text-[#5A422D] text-[1.125rem]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -75,7 +75,7 @@ const Home = () => {
       </div>
 
       {/* Explore the lovely pet */}
-      <div className="flex flex-col bg-[#FFF8F5] py-20 px-28 items-center gap-12 ">
+      <div className="flex flex-col bg-[#FFF8F5] py-20 px-28 items-center gap-12 w-full">
         <h1 className="font-bold text-[#7FA0C5] text-[3.5rem] text-center">
           Explore The Lovely Pet
         </h1>
@@ -93,7 +93,7 @@ const Home = () => {
       </div>
 
       {/* Contact */}
-      <div className="flex flex-col pt-12 pl-32 pr-9 pb-9 gap-[4.75rem] items-center">
+      <div className="flex flex-col pt-12 pl-32 pr-9 pb-9 gap-[4.75rem] items-center xl:max-w-[1440px]">
         <h1 className="font-bold text-[#7FA0C5] text-[3.5rem] text-center">
           Contact
         </h1>
