@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col h-[12.1875rem] w-min-screen bg-[#D0E4FF] pt-7 items-center">
+    <div className="flex flex-col h-[12.1875rem] w-full bg-[#D0E4FF] pt-7 items-center">
       <div className="flex flex-row justify-center items-center gap-11">
         <Link
           to="#"
