@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # PawPet
 =======
 # Getting Started with Create React App
