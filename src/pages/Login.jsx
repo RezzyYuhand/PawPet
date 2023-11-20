@@ -78,11 +78,11 @@ const Login = () => {
             <div className="flex flex-col gap-6 w-full items-center">
               <button
                 type="submit"
-                onClick={handleLogin}
                 className="h-[3.25rem] w-full bg-[#598AC1] text-center text-white rounded-lg"
               >
                 Login
               </button>
+
 
               <div className="font-normal text-[1rem] text-[#BEBEBF]">
                 Don't Have An Account?{" "}

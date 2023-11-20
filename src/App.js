@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, Login } from "./pages";
+import { Home, Login, AddPet} from "./pages";
 import { Route, Routes } from "react-router-dom";
 
 const App = () => {
@@ -7,6 +7,7 @@ const App = () => {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/addpet" element={<AddPet />} />
     </Routes>
   );
 };
